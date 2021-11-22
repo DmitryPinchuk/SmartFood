@@ -1,0 +1,251 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 262px 0 20px;
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 130%;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 160%;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140%;
+}
+
+h4 {
+    display: inline;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 140%;
+}
+
+p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.sub {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.5;
+}
+
+header {
+    height: 1080px;
+    background: url('../img/Hero_BG.jpg') center center/cover no-repeat;
+}
+
+.menu_bg {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: rgba(252, 255, 251, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+.menu_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.logo span {
+    color: #8DA785;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    width: 640px;
+    justify-content: space-between;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 414px;
+    height: 50px;
+    margin: 40px auto 0;
+    background: rgba(252, 255, 251, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 414px;
+    height: 50px;
+    margin: 30px auto 0;
+    background: #C3DBBC;
+}
+
+.scroll {
+    display: block;
+    margin: 100px auto;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about_content {
+    height: 616px;
+    border-bottom: 1px solid #C3DBBC;
+    background: url('../img/Waiter.png') right bottom no-repeat;
+}
+
+.about p {
+    margin-top: 30px;
+}
+
+.about .first_container {
+    width: 732px;
+}
+
+.about .second_container {
+    margin-top: 70px;
+    width: 586px;
+}
+
+.about .paragraph {
+    margin-top: 15px;
+}
+
+.hits {
+    margin-top: 100px;
+}
+
+.hits h3 {
+    text-align: center;
+}
+
+.hits_container {
+    margin-top: 100px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.hits_item {
+    position: relative;
+    width: 536px;
+    height: 157px;
+}
+
+.hits .overlap {
+    position: absolute;
+    top: 30px;
+    left: 65px;
+    width: 200px;
+    height: 35px;
+    background-color: white;
+}
+
+.hits p {
+    position: absolute;
+    margin-top: 100px;
+}
+
+.hits h5 {
+    position: absolute;
+    top: -33px;
+    font-weight: 550;
+    font-size: 99px;
+    color: white;
+    -webkit-text-stroke: 1px #8DA785;
+    z-index: -2;
+}
+
+.hits h4 {
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 30px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    margin-top: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 548px;
+    background-image: url(../img/Form_BG.jpg);
+}
+
+.pop_up {
+    width: 662px;
+    height: 348px;
+    background: rgba(252, 255, 251, 0.54);
+    backdrop-filter: blur(21px);
+}
+
+.pop_up_header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.checkbox {
+    margin: 30px 0 0 124px;
+    display: flex;
+    align-items: center;
+}
+
+.pop_up_checkbox {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer_content {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.footer_menu {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sn {
+    width: 256px;
+    display: flex;
+    justify-content: space-between;
+}
